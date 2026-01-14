@@ -1,0 +1,41 @@
+* {
+    text-align: center;
+}
+
+#outer {
+    height : 500px;
+    width: 500px;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.inner {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+    transition-timing-function: ease-in;
+}
+
+.red {
+    background-color: #d95980;
+}
+
+.green {
+    background-color: #63aac0;
+}
+
+.yellow {
+    background-color: #f99b45;
+}
+
+.blue {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+}
